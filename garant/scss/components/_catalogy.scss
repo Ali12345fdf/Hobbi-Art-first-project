@@ -1,0 +1,104 @@
+.catalogy {
+  margin-top: vw(69);
+  &__title {
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(28);
+    line-height: vw(43);
+    color: #424242;
+    width: vw(140);
+  }
+  &__button-hero {
+    margin-top: vw(40);
+    width: vw(392);
+    height: vw(100);
+    background: #ffffff;
+    border-radius: vw(20);
+    box-shadow: 0px 0px 30px rgba(68, 68, 68, 0.05);
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+  }
+  &__button-hero:hover {
+    transition: 0.5s;
+    background: linear-gradient(
+      59.75deg,
+      #c5c5a8 -2.61%,
+      #e2e1cf 76.3%,
+      #e2e1cf 76.3%
+    );
+  }
+
+  &__button {
+    margin-top: vw(24);
+    width: vw(392);
+    height: vw(100);
+    background: #ffffff;
+    border-radius: vw(20);
+    box-shadow: 0px 0px 30px rgba(68, 68, 68, 0.05);
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+  }
+  &__button:hover {
+    transition: 0.5s;
+    background: linear-gradient(
+      59.75deg,
+      #c5c5a8 -2.61%,
+      #e2e1cf 76.3%,
+      #e2e1cf 76.3%
+    );
+  }
+
+  &__subtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(18);
+    line-height: vw(22);
+    color: #424242;
+    margin-top: vw(40);
+    margin-left: vw(49);
+  }
+  &__png {
+    width: vw(148);
+    height: vw(89);
+    margin-right: vw(25);
+    margin-top: vw(3);
+  }
+
+  &__span {
+    width: vw(1148);
+    height: vw(594);
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(23);
+    line-height: vw(43);
+    text-transform: uppercase;
+    color: #424242;
+  }
+
+  &__p {
+      margin-top: vw(40);
+    width: vw(1148);
+    height: vw(1026);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(18);
+    line-height: 150%;
+    color: #424242;
+  }
+
+  &__wrap{
+      display: flex;
+  }
+
+  &__about{
+      margin-left: vw(80);
+  }
+
+
+}

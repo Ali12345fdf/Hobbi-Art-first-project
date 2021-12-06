@@ -1,0 +1,210 @@
+.art {
+    position: relative;
+
+   &__uved{
+     position: absolute;
+     right: vw(345);
+     top:vw(20) ;
+     width: vw(17);
+     height: vw(17);
+   }
+ 
+   &__uvedom{
+    position: absolute;
+    right: vw(177);
+    top:vw(20) ;
+    width: vw(17);
+    height: vw(17);
+  }
+
+   &__number{
+    position: absolute;
+    right: vw(350);
+    top:vw(23) ;
+    width: vw(6);
+    height: vw(9);
+   }
+   
+   &__num{
+    position: absolute;
+    right: vw(182);
+    top:vw(23) ;
+    width: vw(6);
+    height: vw(9);
+   }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: vw(40);
+  }
+  &__menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: vw(15);
+    line-height: vw(20);
+    color: #424242;
+    padding: vw(0);
+  }
+  &__catalogy {
+    text-decoration: none;
+    color: #424242;
+    margin-left: vw(15);
+     
+  }
+  &__catalogy:hover{
+    color: #976464;
+    transition: 0.3s;
+  }
+  &__pay {
+    text-decoration: none;
+    color: #424242;
+    margin-left: vw(29);
+  }
+  &__pay:hover{
+    color: #976464;
+    transition: 0.3s;
+  }
+  &__bonus{
+    text-decoration: none;
+    color: #424242;
+      margin-left: vw(26);
+  } 
+  &__bonus:hover{
+    color: #976464;
+    transition: 0.3s;
+  }
+  &__company{
+    text-decoration: none;
+    color: #424242;
+      margin-left: vw(23);
+  }
+  &__company:hover{
+    color: #976464;
+    transition: 0.3s;
+  }
+   &__contacts{
+    text-decoration: none;
+    color: #424242;
+       margin-left: vw(25);
+   }
+   &__contacts:hover{
+    color: #976464;
+    transition: 0.3s;
+  }
+   &__hobbi{
+       margin-left: vw(40);
+       width: vw(121) ;
+       height: vw(61) ;
+   }
+   &__search {
+    width: vw(198);
+    height: vw(38);
+    margin-left: vw(50);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(14);
+    line-height: vw(17);
+    color: #bdbdbd;
+    border: vw(1) solid #bdbdbd;
+    border-radius: vw(46);
+   
+    background: white;
+    &-img{
+      width: vw(11);
+      height: vw(11);
+      padding-left: vw(51);
+    }
+    
+  }
+  &__search:hover{
+    background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+    color: #ffffff;
+    border: none;
+    transition: 0.3s;
+  }
+
+    &__user {
+      width: vw(101);
+      margin-left: vw(50);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(14);
+    line-height: vw(17);
+    color: #bdbdbd;
+    border: vw(1) solid #bdbdbd;
+    border-radius: vw(46);
+    height: vw(38);
+    background: white;
+    &-img{
+      width: vw(11);
+      height: vw(11);
+      padding-right: vw(7);
+    }
+    }
+    &__user:hover {
+      background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+      color: #ffffff;
+      border: none;
+      transition: 0.3s;
+    }
+  
+    &__heart {
+      width: vw(135);
+      margin-left: vw(50);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(14);
+    line-height: vw(17);
+    color: #bdbdbd;
+    border: vw(1) solid #bdbdbd;
+    border-radius: vw(46);
+    height: vw(38);
+    background: white;
+    &-img{
+      width: vw(12);
+      height: vw(11);
+      padding-right: vw(7);
+    }
+    }
+    &__heart:hover {
+      background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+      color: #ffffff;
+      border: none;
+      transition: 0.3s;
+    }
+
+    &__bucket {
+      width: vw(114);
+      margin-left: vw(50);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(14);
+    line-height: vw(17);
+    color: #bdbdbd;
+    border: vw(1) solid #bdbdbd;
+    border-radius: vw(46);
+    height: vw(38);
+    background: white;
+    &-img{
+      width: vw(12);
+      height: vw(11);
+      padding-right: vw(7);
+    }
+    }
+   &__bucket:hover {
+    background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+    color: #ffffff;
+    border: none;
+    transition: 0.3s;
+  }
+}

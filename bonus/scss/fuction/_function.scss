@@ -1,0 +1,7 @@
+@function vw($value, $base: 1920) { //Второй параметр, ширина экарана в макете
+    @return $value / $base * 100vw;
+  }
+  
+  @function vmin($value, $base: 1024) {
+    @return $value / $base * 100vmin;
+  }

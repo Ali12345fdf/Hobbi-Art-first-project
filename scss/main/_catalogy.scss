@@ -1,0 +1,16 @@
+.catalogy {
+  margin-top: vw(100);
+  &__title {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(28);
+    line-height: vw(43);
+    text-transform: uppercase;
+    color: #424242;
+  }
+}
+

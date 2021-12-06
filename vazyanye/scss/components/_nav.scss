@@ -1,0 +1,18 @@
+.nav {
+  &__item{
+    margin-top: vw(64);
+  }
+  &__menu {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(16);
+    line-height: vw(20);
+    color: #424242;
+  }
+  &__menu:hover{
+    color: #976464;
+    transition: 0.3s;
+  }
+}

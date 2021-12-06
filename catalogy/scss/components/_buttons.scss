@@ -1,0 +1,28 @@
+.buttons {
+    &__flex{
+        display: flex;
+        justify-content: flex-end;
+    }
+  &__button {
+    margin-left: vw(15);
+    text-align: center;
+    width: vw(80);
+    height: vw(38);
+    border-radius: vw(46);
+    border: vw(1) solid #bdbdbd;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(14);
+    line-height: vw(17);
+    color: #bdbdbd;
+    background: #ffffff;
+  }
+  &__button:hover {
+    background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+    color: #ffffff;
+    border: none;
+    transition: 0.3s;
+  }
+ 
+}

@@ -1,0 +1,91 @@
+.banner {
+  &__background {
+    margin-top: vw(80);
+    position: relative;
+    background-color: #ddddbf;
+    width: vw(1620);
+    height: vw(462);
+    border-radius: vw(20);
+  }
+
+  &__subbanner {
+    width: vw(1620);
+    height: vw(462);
+  }
+
+  &__macrametr {
+    position: absolute;
+    top: vw(280);
+    left: vw(260);
+    width: vw(571);
+    height: vw(425);
+  }
+
+  &__hit {
+    position: absolute;
+    top: vw(150);
+    right: vw(310);
+    width: vw(199);
+    height: vw(199);
+  }
+  &__arrow {
+    position: absolute;
+    top: vw(470);
+    left: vw(800);
+    width: vw(105);
+    height: vw(112);
+  }
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    margin-top: vw(-370);
+    margin-left: vw(280);
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(28);
+    line-height: vw(43);
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #424242;
+  }
+
+  &__subtitle {
+    width: vw(446);
+    margin-left: vw(800);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(18);
+    line-height: 150%;
+    color: rgba(94, 92, 90, 0.8);
+  }
+
+  &__catalogy {
+    position: absolute;
+    left: vw(800);
+    top: vw(320);
+    width: vw(195);
+    height: vw(50);
+    border-radius: vw(49);
+    border: none;
+    background: #ffffff;
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(16);
+    line-height: vw(24);
+    color: #976464;
+    border: vw(1) solid #cfa5a5;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  &__catalogy:hover {
+    background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+    color: #ffffff;
+    border: none;
+    transition: 0.3s;
+  }
+}

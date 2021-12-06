@@ -1,0 +1,94 @@
+.product {
+  &__background {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: vw(64);
+  }
+
+  &__ul {
+    padding: 0;
+  }
+
+  &__makrame {
+    margin-right: vw(39);
+    background: url('../img/main/product/macrame.png') no-repeat;
+    width: vw(375);
+    height: vw(280);
+    border-radius: vw(20);
+    background-size: 100%;
+    overflow: hidden;
+  }
+
+  &__vyazaniye {
+    margin-right: vw(39);
+    background: url('../img/main/product/vyazanye.png') no-repeat;
+    width: vw(375);
+    height: vw(280);
+    border-radius: vw(20);
+    background-size: 100%;
+    overflow: hidden;
+  }
+
+  &__vyshiv {
+    margin-right: vw(39);
+    background: url('../img/main/product/macrame2.png') no-repeat;
+    width: vw(375);
+    height: vw(280);
+    border-radius: vw(20);
+    background-size: 100%;
+    overflow: hidden;
+  }
+
+  &__lepka {
+    
+    background: url('../img/main/product/macrame2.png') no-repeat;
+    width: vw(375);
+    height: vw(280);
+    border-radius: vw(20);
+    background-size: 100%;
+    overflow: hidden;
+  }
+
+  &__inst {
+    margin-top: vw(40);
+    margin-right: vw(39);
+    background: url('../img/main/product/macrame2.png') no-repeat;
+    width: vw(375);
+    height: vw(280);
+    border-radius: vw(20);
+    background-size: 100%;
+    overflow: hidden;
+  }
+
+  &__upakov {
+    margin-top: vw(40);
+    margin-right: vw(39);
+    background: url('../img/main/product/vyazanye.png') no-repeat;
+    width: vw(375);
+    height: vw(280);
+    border-radius: vw(20);
+    background-size: 100%;
+    overflow: hidden;
+  }
+
+  &__tovar {
+    margin-top: vw(40);
+    margin-right: vw(39);
+    background: url('../img/main/product/macrame2.png') no-repeat;
+    width: vw(375);
+    height: vw(280);
+    border-radius: vw(20);
+    background-size: 100%;
+    overflow: hidden;
+  }
+
+  &__knigi {
+    margin-top: vw(40);
+    background: url('../img/main/product/macrame2.png') no-repeat;
+    width: vw(375);
+    height: vw(280);
+    border-radius: vw(20);
+    background-size: 100%;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,131 @@
+.banners {
+   
+  &__background{
+    display: flex;
+   justify-content: space-between;
+   margin-top: vw(48);
+  }
+  
+  &__macra{
+    background: url('../img/main/macra.png') center no-repeat;
+    width: vw(300);
+    height: vw(487);    
+    background-size: 120%;
+    border-radius: vw(20);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(18);
+    line-height: vw(22);
+    color: #ffffff;
+    padding-bottom: vw(24);
+    padding-right: vw(54);
+    box-sizing: border-box;
+  }
+
+  &__macra:hover{
+    color: #976464;
+  }
+    
+  
+
+
+  &__bambuk{
+    background: url('../img/main/bambuk.png') center no-repeat;
+    width: vw(300);
+    height: vw(487);    
+    background-size: 120%;
+    border-radius: vw(20);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(18);
+    line-height: vw(22);
+    color: #ffffff;
+    padding-bottom: vw(24);
+    padding-right: vw(74);
+    box-sizing: border-box;
+  }
+  &__bambuk:hover{
+    color: #976464;
+  }
+  
+  &__zefirka{
+    background: url('../img/main/zefirka.png') center no-repeat;
+    width: vw(300);
+    height: vw(487);    
+    background-size: 120%;
+    border-radius: vw(20);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(18);
+    line-height: vw(22);
+    color: #ffffff;
+    padding-bottom: vw(24);
+    padding-right: vw(100);
+    box-sizing: border-box;
+  }
+
+  &__zefirka:hover{
+    color: #976464;
+  }
+  // /../img/main/shpagat.png
+  &__shpagat{
+    background: url('../img/main/shpagat.png') center no-repeat;
+    width: vw(300);
+    height: vw(487);    
+    background-size: 120%;
+    border-radius: vw(20);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(18);
+    line-height: vw(22);
+    color: #ffffff;
+    padding-bottom: vw(24);
+    padding-right: vw(54);
+    box-sizing: border-box; 
+  }
+
+  &__shpagat:hover{
+    color: #976464;
+  }
+  &__djut{
+    background: url('../img/main/djut.png') center no-repeat;
+    width: vw(300);
+    height: vw(487);    
+    background-size: 120%;
+    border-radius: vw(20);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(18);
+    line-height: vw(22);
+    color: #ffffff;
+    padding-bottom: vw(24);
+    padding-right: vw(74);
+    box-sizing: border-box;  
+  }
+  &__djut:hover{
+    color: #976464;
+  }
+}
+.banners{
+  overflow: hidden;
+}

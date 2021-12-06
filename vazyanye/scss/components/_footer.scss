@@ -1,0 +1,139 @@
+
+.footer {
+    background-color: #ececd5;
+    margin-top: vw(64);
+
+  &__hobby{
+    margin-top: vw(63);
+    width:vw(99) ;
+    height: vw(50);
+  }
+
+  &__img {
+      width:vw(20) ;
+      height: vw(20);
+    margin-right: vw(13);
+  }
+  &__text2{
+    margin-top: vw(46);
+  }
+
+  &__text1 {
+    display: flex;
+    align-items: center;
+   
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(16);
+    line-height: vw(39);
+    color: #424242;
+    list-style-type: none;
+  }
+
+  &__text {
+    margin: 0%;
+    list-style-type: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(16);
+    line-height: vw(58);
+    color: #424242;
+  }
+
+  &__h5 {
+      margin: 0%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(16);
+    line-height: vw(20);
+    color: #424242;
+  }
+
+  &__button {
+      margin-top: vw(31);
+    border-radius: vw(76);
+    font-style: normal;
+    font-weight: vw(300);
+    font-size: vw(14);
+    color: #976464;
+    background: #ffffff;
+    width:vw(222) ;
+    height: vw(50);
+    border: vw(1) solid #cfa5a5;
+  }
+
+  &__button:hover{
+    background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+    color: #ffffff;
+    border: vw(1) solid #cfa5a5;
+    transition: 0.3s;
+  }
+  &__subbutton {
+      
+    background: #ffffff;
+    border-radius: vw(49);
+    border: vw(1) solid #cfa5a5;
+    padding: vw(13) vw(45) vw(13) vw(45);
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight:vw(600) ;
+    font-size: vw(16);
+    line-height: vw(24);
+    width: vw(222);
+    height: vw(50);
+    text-transform: uppercase;
+    color: #976464;
+  }
+
+  &__subbutton:hover{
+    background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+    color: #ffffff;
+    border: vw(1) solid #cfa5a5;
+    transition: 0.3s;
+  }
+
+  &__subpharagraph {
+      margin-top: vw(2);
+      width: vw(476);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(12);
+    line-height: 140.2%;
+    color: #525252;
+  }
+
+  &__pharagraph {
+      margin-top: vw(40);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(16);
+    line-height: 140.2%;
+    color: #525252;
+    width: vw(420);
+  }
+&__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: vw(64);
+ 
+   
+}
+
+&__final{
+    margin-top: vw(63);
+}
+&__height{
+    margin-top: vw(40);
+}
+&__color{
+  background: #ececd5;
+  height: vw(1);
+}
+}

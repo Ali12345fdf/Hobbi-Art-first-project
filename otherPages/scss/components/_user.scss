@@ -1,0 +1,247 @@
+.user {
+  margin-top: vw(48);
+  &__human {
+    width: vw(100);
+    height: vw(100);
+    margin-left: vw(64);
+    margin-top: vw(56);
+  }
+  &__title {
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(28);
+    line-height: vw(43);
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #424242;
+    margin-top: vw(64);
+    margin-bottom: vw(48);
+  }
+
+  &__cart {
+    display: flex;
+    width: vw(1620);
+    height: vw(760);
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+  &__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(18);
+    line-height: vw(22);
+    color: #bdbdbd;
+    width: vw(350);
+  }
+
+  &__door {
+    margin-right: vw(8);
+  }
+  &__margin {
+    margin-left: vw(64);
+    margin-top: vw(40);
+  }
+  &__button-hero {
+    margin: vw(0);
+    width: vw(312);
+    height: vw(56);
+    border-radius: vw(20);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+  }
+  &__button-hero:hover {
+    transition: 0.5s;
+    background: linear-gradient(
+      59.75deg,
+      #c5c5a8 -2.61%,
+      #e2e1cf 76.3%,
+      #e2e1cf 76.3%
+    );
+  }
+
+  &__button {
+    margin-left: vw(64);
+    width: vw(312);
+    height: vw(56);
+    margin: vw(0);
+    border-radius: vw(20);
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+    
+  }
+  &__button:hover {
+    padding-left: vw(34);
+    color: #ffffff;
+    transition: 0.5s;
+    background: linear-gradient(
+      59.75deg,
+      #c5c5a8 -2.61%,
+      #e2e1cf 76.3%,
+      #e2e1cf 76.3%
+    );
+  }
+
+  &__olgaflex {
+    display: flex;
+    align-items: center;
+  }
+
+  &__olga {
+    margin-top: auto;
+    margin-left: vw(24);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(24);
+    line-height: vw(29);
+    color: #424242;
+  }
+
+  &__subtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(18);
+    line-height: vw(22);
+    color: #bdbdbd;
+    display: inline-block;
+    margin-top: vw(13);
+    transition: 0.3s;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  &__subtitle:hover {
+    color: #ffffff;
+    margin-left: vw(32);
+  }
+
+  &__border {
+    margin-top: vw(56);
+    margin-left: vw(69);
+    width: vw(1);
+    height: vw(569);
+    background-color: #bdbdbd;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  &__item {
+   &-label{
+     display: flex;
+   }
+   &-margins{
+    margin-left: vw(64);
+    margin-top: vw(94);
+   }
+    &-button {
+      display: flex;
+      justify-content: space-between;
+      margin-top: vw(24);
+      align-items: center;
+      background-color: #ffffff;
+      border: vw(1) solid #bdbdbd;
+      text-align: center;
+      width: vw(504); 
+      height: vw(50);
+      border-radius: vw(83);
+    }
+&-right{
+  margin-left: vw(20);
+}
+    &-title {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: vw(600);
+      font-size: vw(24);
+      line-height: vw(29);
+      color: #424242;
+    }
+    &-text {
+      margin-left: vw(32);
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: vw(14);
+      line-height: vw(17);
+      color: #bdbdbd;
+    }
+    &-text2 {
+      margin-right: vw(32);
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: vw(14);
+      line-height: vw(17);
+      color: #bdbdbd;
+    }
+
+    &-about {
+      margin: vw(0);
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: vw(600);
+      font-size: vw(14);
+      color: #424242;
+      display: inline-block;
+    }
+    &-save{
+      cursor: pointer;
+      margin-top: vw(40);
+      margin-left: vw(452);
+      background: #ffffff;
+      border-radius: vw(49);
+      border: vw(1) solid #cfa5a5;
+      padding: vw(13) vw(45) vw(13) vw(45);
+      font-family: Spectral SC;
+      font-style: normal;
+      font-weight:vw(600) ;
+      font-size: vw(16);
+      line-height: vw(24);
+      width: vw(287);
+      height: vw(50);
+      text-transform: uppercase;
+      color: #976464;
+    }
+    &-save:hover{
+        background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+        color: #ffffff;
+        border: vw(1) solid #cfa5a5;
+        transition: 0.3s;
+    }
+  }
+}

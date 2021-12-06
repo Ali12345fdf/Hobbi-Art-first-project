@@ -1,0 +1,18 @@
+@mixin font($weight, $size, $lh) {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $lh;
+}
+
+@mixin flex($just: start, $align: center) {
+  display: flex;
+  justify-content: $just;
+  align-items: $align;
+}
+
+@mixin wh($width: vw(0), $height: vw(0)) {
+  width: $width;
+  height: $height;
+}

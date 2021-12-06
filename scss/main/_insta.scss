@@ -1,0 +1,113 @@
+.instagram {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  &__title {
+    display: flex;
+    justify-content: center;
+    margin-top: vw(128);
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(28);
+    line-height: vw(43);
+    text-transform: uppercase;
+    color: #424242;
+    margin-bottom: vw(64);
+  }
+
+  &__banner {
+    cursor: pointer;
+    overflow: hidden;
+    padding: vw(15);
+    width: vw(800);
+    height: vw(800);
+    margin-bottom: vw(-20);
+    transition: 0.3s;
+    transform: scale(0.9);
+  }
+  &__banner:hover {
+    border-radius: vw(180);
+    transform: scale(1.0);
+  }
+  
+
+
+  &__subbanner {
+    width: 90%;
+    cursor: pointer;
+    transform: scale(0.9);
+    width: vw(390);
+    height: vw(390);
+    margin-bottom: vw(-10);
+    border-radius: vw(20);
+    transition: 0.3s;
+  }
+  &__subbanner:hover{
+    border-radius: vw(120);
+    transform: scale(1.0);
+  }
+  &__subbanner2 {
+    cursor: pointer;
+    transform: scale(0.9);
+    width: vw(390);
+    height: vw(390);
+    margin-bottom: vw(-10);
+    margin-left: vw(5);
+    border-radius: vw(20);
+    transition: 0.3s;
+  }
+  &__subbanner2:hover{
+    border-radius: vw(120);
+    transform: scale(1.0);
+  }
+
+  &__banners {
+    display: flex;
+    flex-direction: column;
+  }
+  &__display {
+    display: flex;
+    border-radius: vw(20);
+  }
+
+  &__banners2 {
+    margin-left: vw(20);
+  }
+  &__hobby2 {
+    background: white;
+    border-radius: vw(49);
+    border: vw(1) solid #cfa5a5;
+    padding: vw(13) vw(45) vw(13) vw(45);
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight:vw(600) ;
+    font-size: vw(16);
+    line-height: vw(24);
+    text-transform: uppercase;
+    color: #976464;
+  }
+  &__hobby2:hover{
+    background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+    color: #ffffff;
+    border: vw(1) solid #cfa5a5;
+    transition: 0.3s;
+  }
+
+
+  &__hobby{
+    display: flex;
+    justify-content: center;
+    margin-top: vw(57);
+    
+  }
+
+  &__heart{
+    position: absolute;
+    top:vw(670) ;
+    left:vw(521);
+    width: vw(50);
+    height: vw(50);
+  }
+
+}

@@ -1,0 +1,226 @@
+.catalogy {
+  margin-top: vw(30);
+  &__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(16);
+    line-height: vw(20);
+    color: #424242;
+  }
+  &__title:hover {
+    color: $text-purple;
+  }
+
+  &__subtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(14);
+    line-height: vw(17);
+    color: #424242;
+    text-decoration: none;
+  }
+  &__descr {
+    margin-top: vw(11);
+    margin-left: vw(8);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(14);
+    line-height: vw(17);
+    color: #424242;
+    cursor: pointer;
+  }
+  &__descr:hover {
+    color: #976464;
+    transition: 0.1s;
+    cursor: pointer;
+  }
+
+  &__backgrounds {
+    width: vw(14);
+    height: vw(14);
+    border: 1px solid #bdbdbd;
+  }
+
+  &__flex {
+    display: flex;
+  }
+
+  &__border {
+    height: vw(1);
+    width: vw(227);
+    background-color: #bdbdbd;
+    margin-top: vw(27);
+  }
+
+  &__button {
+    margin-top: vw(16);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(14);
+    line-height: vw(17);
+    color: #bdbdbd;
+    width: vw(229);
+    height: vw(49);
+    border-radius: vw(46);
+    background: #ffffff;
+    border: vw(1) solid #bdbdbd;
+  }
+  &__button:hover {
+    background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+    color: #ffffff;
+    border: none;
+    transition: 0.3s;
+  }
+  &__buttons {
+    margin-top: vw(21);
+    display: flex;
+    flex-direction: column;
+  }
+  &__p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(14);
+    line-height: vw(17);
+    color: #bdbdbd;
+    margin-left: vw(30);
+  }
+
+  &__p:hover {
+    color: #976464;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  &__box {
+    display: flex;
+  }
+
+  &__burger {
+    background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+    width: vw(6);
+    height: vw(6);
+    border-radius: 50%;
+  }
+  &__burgerf {
+    margin-right: vw(30);
+    margin-top: vw(30);
+    display: flex;
+  }
+
+  &__row {
+    background: #ffffff;
+    height: vw(459);
+    width: vw(245);
+    border-radius: vw(20);
+    
+  }
+
+  &__banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__heart{
+    margin-top: vw(30);
+    margin-left: vw(30);
+  }
+
+  &__macrame {
+    margin-top: vw(12);
+    margin-left: vw(33);
+    width: vw(182);
+    height: vw(182);
+  }
+  &__arahna{
+    margin-left: vw(16);
+    width: vw(213);
+    height: vw(195);
+  }
+
+  &__katia{
+    margin-left: vw(27);
+    width: vw(192);
+    height: vw(195);
+  }
+  &__shpagat {
+    margin-top: vw(16);
+    width: vw(166);
+    margin-left: vw(30);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(16);
+    line-height: 105%;
+    color: #424242;
+  }
+
+  &__span {
+    display: flex;
+    flex-direction: column;
+    margin-left: vw(30);
+    margin-top: vw(10);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: vw(600);
+    font-size: vw(16);
+    line-height: vw(20);
+    color: #424242;
+  }
+
+  &__korzina {
+    margin-left: vw(30);
+    margin-top: vw(16);
+    width: vw(195);
+    height: vw(50);
+    border-radius: vw(49);
+    border: none;
+    background: #ffffff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(14);
+    line-height: vw(17);
+    color: #976464;
+    border: vw(1) solid #cfa5a5;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  &__korzina:hover {
+    background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+    color: #ffffff;
+    border: none;
+    transition: 0.3s;
+  }
+  &__bucket{
+    margin-right: vw(8);
+  }
+  &__5{
+    display: flex;
+    flex-direction: column;
+    width: vw(97);
+    height: vw(20);
+    margin-left: vw(30);
+  }
+
+  &__margin{
+    margin-left: vw(56);
+  }
+  &__banners{
+    margin-bottom: vw(28);
+    margin-right: vw(21);
+    
+  }
+
+  &__wrap{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+}

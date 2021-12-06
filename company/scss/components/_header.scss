@@ -1,0 +1,23 @@
+.header {
+  background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+
+  &__img {
+    background: url(../../img/header.png) no-repeat;
+  }
+
+  &__hero {
+    @include flex(space-between);
+    padding:vw(14) ;
+  }
+
+  &__text {
+    @include flex(start, center);
+    @include font(vw(400), vw(14), vw(17));
+    color: $text-white;
+  }
+  &__image {
+    padding-right: vw(9);
+    width: vw(10);
+    height: vw(13);
+  }
+}
